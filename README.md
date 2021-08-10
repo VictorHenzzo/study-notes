@@ -1,1 +1,1 @@
-# study-notes
+# My space for lerarning awesome things ;-D
