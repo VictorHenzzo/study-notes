@@ -1,0 +1,17 @@
+body {
+  background: gray;
+}
+
+h1 {
+  text-align: center;
+  /* background-color: gray; */
+}
+
+p {
+  text-align: center;
+  /* background-color: gray; */
+}
+
+em strong {
+  color: red;
+}
