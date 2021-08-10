@@ -1,1 +1,1 @@
-# My space for lerarning awesome things ;-D
+# My space for learning awesome things ;-D
