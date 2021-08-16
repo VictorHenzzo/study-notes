@@ -1,10 +1,18 @@
-body {
-  background: gray;
+#banner {
+  width: 100%;
 }
 
-h1 {
+.titulo-principal {
+  padding: 20px;
+}
+
+.principal {
+  background: gray;
+  padding: 30px;
+}
+
+.titulo-centralizado {
   text-align: center;
-  /* background-color: gray; */
 }
 
 p {
@@ -14,4 +22,28 @@ p {
 
 em strong {
   color: red;
+}
+
+#missao {
+  font-size: 20px;
+}
+
+.beneficios {
+  background: #ffffffff;
+  padding: 20px;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.lista {
+  font-style: italic;
+}
+
+.imgBeneficios {
+  width: 50%;
 }
