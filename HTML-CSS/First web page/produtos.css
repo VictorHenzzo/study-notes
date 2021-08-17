@@ -1,0 +1,29 @@
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
+}
+
+.caixa-header {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  /* absoluto em relação a caixa, pois "levantamos" ela usando o position */
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
