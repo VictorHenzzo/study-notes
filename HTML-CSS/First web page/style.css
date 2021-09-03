@@ -1,49 +1,112 @@
-#banner {
-  width: 100%;
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
 }
 
-.titulo-principal {
-  padding: 20px;
+.caixa-header {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
 }
 
-.principal {
-  background: gray;
-  padding: 30px;
+nav {
+  position: absolute;
+  /* absoluto em relação a caixa, pois "levantamos" ela usando o position */
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
 }
 
-.titulo-centralizado {
-  text-align: center;
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 
-p {
-  text-align: center;
-  /* background-color: gray; */
+nav a:hover {
+  color: #c78c19;
+}
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
-em strong {
-  color: red;
-}
-
-#missao {
-  font-size: 20px;
-}
-
-.beneficios {
-  background: #ffffffff;
-  padding: 20px;
-}
-
-ul {
+.produtos li {
   display: inline-block;
+  text-align: center;
+  width: 30%;
   vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 10px;
 }
 
-.lista {
-  font-style: italic;
+.produtos li:hover {
+  border: 3px solid #c78c19;
 }
 
-.imgBeneficios {
+.produtos li:hover h2 {
+  font-size: 34px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produtoDescricao {
+  font-size: 18px;
+}
+
+.produtoPreco {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+
+footer {
+  text-align: center;
+  background: url("./img/bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form p {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
   width: 50%;
+}
+
+.checkbox {
+  margin: 25px 0;
 }
