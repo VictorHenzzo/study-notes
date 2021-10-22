@@ -6,7 +6,7 @@
    "configurations": [
       {
          "name": "Dart & Flutter",
-         "program": "controle/for.dart",
+         "program": "funcao/sorteador.dart",
          "request": "launch",
          "type": "dart"
       }
